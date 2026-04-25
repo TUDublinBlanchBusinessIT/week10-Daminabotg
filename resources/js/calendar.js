@@ -16,10 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 center: 'title',
                 right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
             },
-            events: [
-                { title: 'All Day Event', start: '2026-04-20' },
-                { title: 'Long Event', start: '2026-04-22', end: '2026-04-23' }
-            ]
+            events: '/calendar/json'
         });
 
         calendar.render();
