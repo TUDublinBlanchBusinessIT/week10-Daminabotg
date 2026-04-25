@@ -2,4 +2,6 @@
 
 @section('content')
 <div id="calendar"></div>
+
+@include('calendar.modalbooking')
 @endsection
